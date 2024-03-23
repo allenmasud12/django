@@ -6,9 +6,10 @@
     <title>project1</title>
 </head>
 <body>
-
+    {% extends 'contract.html' %}
+    {%block content%}
     <h1>My Name is {{name}}</h1>
     <p> i am a {{work}}</p>
-    
+    {%endblock content%}
 </body>
 </html>
